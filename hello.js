@@ -1,1 +1,1 @@
-alert('Hello');
+alert('Shopify Script Tag Works !!');
