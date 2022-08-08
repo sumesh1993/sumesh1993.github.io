@@ -1,1 +1,1 @@
-alert('Shopify Script Tag Works !!');
+console.log('Shopify Script Tag Works !!');
