@@ -1,1 +1,3 @@
-console.log('Shopify Script Tag Works !!');
+var x = document.createElement("IFRAME");
+x.setAttribute("src", "https://www.w3schools.com");
+document.body.appendChild(x);
