@@ -7,3 +7,8 @@ x.style.bottom=0;
 x.style.right=0;
 x.style.border='none';
 document.body.appendChild(x);
+
+window.addEventListener('message', function (e) {
+    const data = e.data;
+    console.log('message received',data);
+});
