@@ -9,6 +9,9 @@ x.style.border='none';
 document.body.appendChild(x);
 
 window.addEventListener('message', function (e) {
-    const data = e.data;
-    console.log('message received',data);
+    const data = JSON.parse(e.data);
+    if(data?.source == 'iframe') {
+        x.style.width=data?.width;
+        x.style.height=data?.height;
+    }
 });
