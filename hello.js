@@ -1,3 +1,4 @@
+console.log('location',location);
 const urlParams = new URLSearchParams(location.search);
 const widgetId = urlParams.get('widgetId')
 console.log('widgetId',widgetId);
