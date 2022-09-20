@@ -1,5 +1,5 @@
 var x = document.createElement("IFRAME");
-x.setAttribute("src", "https://a4b6-106-51-64-99.in.ngrok.io/redirect);
+x.setAttribute("src", "https://a4b6-106-51-64-99.in.ngrok.io/redirect");
 x.setAttribute('id', 'sumesh-iframe');
 x.setAttribute('sandbox',"allow-same-origin allow-scripts");
 x.style.position='fixed';
