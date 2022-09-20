@@ -1,9 +1,7 @@
-var x = document.createElement("IFRAME");
-const queryString = window.location.search;
-console.log('queryString',queryString);
-const urlParams = new URLSearchParams(queryString);
+const urlParams = new URLSearchParams(location.search);
 const widgetId = urlParams.get('widgetId')
 console.log('widgetId',widgetId);
+var x = document.createElement("IFRAME");
 x.setAttribute("src", "https://124b-106-51-64-99.in.ngrok.io/?widgetId="+widgetId);
 x.setAttribute('id', 'sumesh-iframe');
 x.setAttribute('sandbox',"allow-same-origin allow-scripts");
