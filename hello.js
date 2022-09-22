@@ -1,7 +1,6 @@
 var x = document.createElement("IFRAME");
-x.setAttribute("src", "https://a4b6-106-51-64-99.in.ngrok.io/redirect");
-x.setAttribute('id', 'sumesh-iframe');
-x.setAttribute('sandbox',"allow-same-origin allow-scripts");
+x.setAttribute("src", "https://771f-103-171-98-26.in.ngrok.io/spin");
+x.setAttribute('id', 'child-iframe');
 x.style.position='fixed';
 x.style.zIndex='99999999999';
 x.style.bottom=0;
