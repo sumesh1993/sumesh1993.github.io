@@ -10,4 +10,7 @@ function injectConfig(name) {
   widget.style.display = "block";
 }
 
-injectConfig("redirect");
+setTimeout(() => {
+  injectConfig("redirect");
+  console.log("called inject script after 5sec");
+}, 5000);
